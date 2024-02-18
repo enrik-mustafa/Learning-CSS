@@ -237,11 +237,9 @@ textarea {
 }
 
 footer {
-    background-color: rgb(61, 61, 61);
+    background: rgb(61, 61, 61);
     color: whitesmoke;
-}
-
-footer p {
-    padding: 15px;
     text-align: center;
+    padding: 20px;
+    margin-top: 40px;
 }
