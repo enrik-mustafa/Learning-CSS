@@ -9,6 +9,68 @@ body {
     line-height: 1.6;
 }
 
+header {
+    background-color: #477998;
+}
+
+header h1 {
+    color: whitesmoke;
+    width: 210px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: rgb(51, 51, 51);
+    height: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 303px;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+nav li {
+    background-color: rgb(51, 51, 51);
+    float: left;
+    margin: 0 5px;
+    padding: 5px 8px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav li:hover {
+    background-color: rgb(68, 68, 68);
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.active {
+    color: #48BEFF;
+}
+
+.showcase {
+    background-image: url(img/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 450px;
+}
+
+.showcase h1 {
+    font-size: 2.4em;
+    color: whitesmoke;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 90px;
+}
+
 button {
     margin-top: 10px;
     width: 15%;
@@ -27,7 +89,8 @@ button:active {
 }
 
 .container {
-    width: 80%;
+    background-color: whitesmoke;
+    width: 60%;
     margin: 40px auto;
 }
 
